@@ -1,6 +1,10 @@
 'use client';
 
+import { useState } from 'react';
+
 export default function Contact() {
+  const [isEmailRevealed, setIsEmailRevealed] = useState(false);
+
   return (
     <section id="contact" className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
@@ -14,12 +18,22 @@ export default function Contact() {
             <p className="section-copy">Reach out.</p>
           </div>
 
-          <a
-            href="mailto:rob@robfiasco.dev"
-            className="inline-block px-7 py-3 rounded-full bg-gradient-to-r from-accent-purple to-accent-blue text-white font-semibold"
-          >
-            rob@robfiasco.dev
-          </a>
+          {isEmailRevealed ? (
+            <a
+              href="mailto:robfiasco@gmail.com"
+              className="inline-block px-7 py-3 rounded-full bg-gradient-to-r from-accent-purple to-accent-blue text-white font-semibold"
+            >
+              robfiasco@gmail.com
+            </a>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setIsEmailRevealed(true)}
+              className="inline-block px-7 py-3 rounded-full bg-gradient-to-r from-accent-purple to-accent-blue text-white font-semibold"
+            >
+              Click to reveal email
+            </button>
+          )}
         </div>
       </div>
     </section>
