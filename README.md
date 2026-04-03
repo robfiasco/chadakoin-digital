@@ -284,10 +284,10 @@ PORT=3001 npm run dev
 
 ## 🤝 Contact
 
-Rob Madruga
-- Email: rob@chadakoindigital.com
+Rob Fiasco
+- Email: rob@robfiasco.dev
 - Location: Jamestown, NY
-- Projects: [CDIR](https://cdir.robmadruga.com) | [LOTDQQ](https://lotdqq.com)
+- Projects: [LOTDQQ](https://lotdqq.com)
 
 ---
 
