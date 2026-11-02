@@ -6,19 +6,19 @@ export default function Offers() {
       title: 'Business website.',
       body: 'A fast, simple site for your hours, menu or services, with your contact info and a map.',
       price: 'Starting at $500.',
-      note: 'Usually 1 to 2 weeks.',
+      note: 'Usually under a week once I have your info.',
     },
     {
       title: 'Booking or ordering setup.',
       body: 'Customers book or order online and you see it all in one place.',
       price: 'Starting at $1,000.',
-      note: 'Usually 2 to 3 weeks.',
+      note: 'Usually 1 to 2 weeks.',
     },
     {
       title: 'Spreadsheet to dashboard.',
       body: 'Your numbers, reports and inventory in one place that updates itself.',
       price: 'Starting at $400.',
-      note: 'Usually 1 to 2 weeks.',
+      note: 'Usually about a week.',
     },
     {
       title: 'Automation or custom tool.',
