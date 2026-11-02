@@ -11,7 +11,7 @@ export default function Portfolio() {
     {
       title: 'LOTDQQ',
       description: 'A trivia game that generates questions for each podcast episode.',
-      link: 'https://lotdqq.com',
+      link: 'https://liveontapedelay-website.vercel.app/#lotdqq',
     },
     {
       title: 'MicroLifts',
