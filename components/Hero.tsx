@@ -15,8 +15,8 @@ export default function Hero() {
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-studio-muted max-w-3xl leading-relaxed mb-10">
             I&apos;m Rob Fiasco, one person in Jamestown, NY who builds the tools your business is missing:
-            dashboards, scheduling, automation, apps and websites. Built by a human with modern AI-assisted
-            development tools, which keeps projects fast and affordable.
+            dashboards, scheduling, automation, apps and websites. You work directly with me from start to
+            finish, which keeps projects fast and affordable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <BookingButton />
