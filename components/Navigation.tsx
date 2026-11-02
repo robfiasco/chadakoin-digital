@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import BookingButton from '@/components/BookingButton';
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -29,7 +30,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#hero" className="flex items-center gap-3">
+          <a href="#hero" className="flex items-center gap-3 min-h-[44px]">
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center">
               <span className="text-white text-sm font-semibold">CD</span>
             </div>
@@ -39,23 +40,18 @@ export default function Navigation() {
             </div>
           </a>
 
-          <div className="hidden lg:flex items-center gap-7">
+          <div className="hidden xl:flex items-center gap-7">
             {navLinks.map((link) => (
-              <a key={link.href} href={link.href} className="text-studio-muted hover:text-studio-text transition-colors">
+              <a key={link.href} href={link.href} className="py-2.5 text-studio-muted hover:text-studio-text transition-colors">
                 {link.label}
               </a>
             ))}
-            <a
-              href="#contact"
-              className="px-4 py-2 rounded-full bg-studio-card border border-white/15 text-studio-text hover:border-accent-blue/60 transition-colors"
-            >
-              Contact Rob
-            </a>
+            <BookingButton className="!px-5 !py-2 text-sm" />
           </div>
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden text-studio-text p-2"
+            className="xl:hidden text-studio-text p-3 -mr-3"
             aria-label="Toggle navigation menu"
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-menu"
@@ -71,17 +67,20 @@ export default function Navigation() {
         </div>
 
         {mobileMenuOpen && (
-          <div id="mobile-menu" className="lg:hidden mt-4 p-4 rounded-xl glass space-y-3">
+          <div id="mobile-menu" className="xl:hidden mt-4 p-4 rounded-xl glass space-y-1">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block text-studio-muted hover:text-studio-text transition-colors"
+                className="block py-2.5 text-studio-muted hover:text-studio-text transition-colors"
               >
                 {link.label}
               </a>
             ))}
+            <div className="pt-3">
+              <BookingButton className="w-full" />
+            </div>
           </div>
         )}
       </div>

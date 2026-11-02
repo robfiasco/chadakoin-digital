@@ -1,5 +1,9 @@
 import type { Metadata } from 'next';
+import { Outfit } from 'next/font/google';
 import './globals.css';
+
+// Self-hosted at build time, so the page no longer waits on a render-blocking Google Fonts stylesheet.
+const outfit = Outfit({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'], variable: '--font-outfit' });
 
 const title = 'Chadakoin Digital | Custom software for Jamestown businesses';
 const description =
@@ -28,14 +32,30 @@ export const metadata: Metadata = {
   },
 };
 
+// No address, phone or email here on purpose.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'Chadakoin Digital',
+  url: 'https://chadakoindigital.com',
+  description,
+  areaServed: [
+    { '@type': 'City', name: 'Jamestown, NY' },
+    { '@type': 'AdministrativeArea', name: 'Chautauqua County, NY' },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body>{children}</body>
+    <html lang="en" className={`scroll-smooth ${outfit.variable}`}>
+      <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        {children}
+      </body>
     </html>
   );
 }

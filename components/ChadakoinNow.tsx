@@ -22,6 +22,8 @@ export default function ChadakoinNow() {
               <img
                 key={screen}
                 src={`/chadakoin-now-${screen.toLowerCase()}.webp`}
+                srcSet={`/chadakoin-now-${screen.toLowerCase()}-240.webp 240w, /chadakoin-now-${screen.toLowerCase()}.webp 460w`}
+                sizes="(min-width: 768px) 190px, 68vw"
                 alt={`Chadakoin Now ${screen} screen`}
                 width={460}
                 height={999}
@@ -36,7 +38,7 @@ export default function ChadakoinNow() {
               href="https://now.chadakoindigital.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-7 py-3 rounded-full bg-gradient-to-r from-accent-blue to-accent-purple text-white font-semibold text-center"
+              className="inline-flex items-center justify-center min-h-[44px] px-7 py-3 rounded-full border border-white/20 text-studio-text font-semibold text-center hover:border-accent-teal/70 transition-colors"
             >
               Open the app
             </a>
@@ -44,7 +46,7 @@ export default function ChadakoinNow() {
               href="https://apps.apple.com/us/app/chadakoin-now/id6783802593"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-7 py-3 rounded-full border border-white/20 text-studio-text font-semibold text-center hover:border-accent-teal/70 transition-colors"
+              className="inline-flex items-center justify-center min-h-[44px] px-7 py-3 rounded-full border border-white/20 text-studio-text font-semibold text-center hover:border-accent-teal/70 transition-colors"
             >
               Download on the App Store
             </a>
