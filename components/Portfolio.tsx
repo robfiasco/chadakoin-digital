@@ -7,15 +7,19 @@ export default function Portfolio() {
       badge: null,
       description:
         'An independent fan guide for the Tarp Skunks: schedule, archive, promotions and team history. The team linked to it from their site and used the ticket stubs I designed on their game broadcast.',
-      image: { src: '/tarp-skunks-preview.webp', alt: 'Jamestown Tarp Skunks Fan Guide schedule page', width: 800, height: 416 },
+      image: {
+        src: '/tarp-skunks-preview.webp',
+        alt: 'Jamestown Tarp Skunks Fan Guide schedule page',
+        width: 800,
+        height: 416,
+      },
       link: 'https://tarp-skunks-2026.vercel.app/',
       linkLabel: 'Open the fan guide',
     },
     {
       title: 'CDIR',
       badge: null,
-      description:
-        'An internet radio station that archives Jamestown music and streams Live On Tape Delay episodes.',
+      description: 'An internet radio station that archives Jamestown music and streams Live On Tape Delay episodes.',
       image: { src: '/cdir-preview.webp', alt: 'CDIR radio player', width: 800, height: 477 },
       link: 'https://radio.chadakoindigital.com/cdir.html',
       linkLabel: 'Open Project',
@@ -40,11 +44,11 @@ export default function Portfolio() {
         </div>
 
         {/* Deliberately quieter than the Chadakoin Now feature: no glass, no glow, smaller titles */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <article
               key={project.title}
-              className="p-6 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-white/20 transition-colors"
+              className="flex flex-col p-6 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-white/20 transition-colors"
             >
               <h3 className="text-xl font-display font-bold text-studio-text mb-3">{project.title}</h3>
               {project.badge && (
@@ -53,26 +57,29 @@ export default function Portfolio() {
                 </span>
               )}
               <p className="text-studio-muted leading-relaxed mb-5">{project.description}</p>
-              {project.image && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={project.image.src}
-                  alt={project.image.alt}
-                  width={project.image.width}
-                  height={project.image.height}
-                  loading="lazy"
-                  className="w-full h-auto rounded-xl border border-white/10 mb-5"
-                />
-              )}
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 min-h-[44px] text-accent-blue hover:text-accent-teal transition-colors"
-              >
-                {project.linkLabel}
-                <span aria-hidden="true">&rarr;</span>
-              </a>
+              {/* Pinned to the bottom so images and links line up across cards of different text lengths */}
+              <div className="mt-auto">
+                {project.image && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={project.image.src}
+                    alt={project.image.alt}
+                    width={project.image.width}
+                    height={project.image.height}
+                    loading="lazy"
+                    className="w-full aspect-[16/9] object-cover object-left-top rounded-xl border border-white/10 mb-5"
+                  />
+                )}
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 min-h-[44px] text-accent-blue hover:text-accent-teal transition-colors"
+                >
+                  {project.linkLabel}
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
             </article>
           ))}
         </div>
