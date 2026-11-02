@@ -31,9 +31,8 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-3 min-h-[44px]">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center">
-              <span className="text-white text-sm font-semibold">CD</span>
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo-mark.webp" alt="" width={36} height={36} className="w-9 h-9 rounded-lg" />
             <div>
               <p className="text-studio-text font-display font-bold leading-none">Chadakoin Digital</p>
               <p className="text-studio-muted text-xs font-mono">Product Studio</p>
