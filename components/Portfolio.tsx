@@ -16,7 +16,7 @@ export default function Portfolio() {
       badge: null,
       description:
         'An internet radio station that archives Jamestown music and streams Live On Tape Delay episodes.',
-      image: null,
+      image: { src: '/cdir-preview.webp', alt: 'CDIR radio player', width: 800, height: 477 },
       link: 'https://radio.chadakoindigital.com/cdir.html',
       linkLabel: 'Open Project',
     },
@@ -25,7 +25,7 @@ export default function Portfolio() {
       badge: 'Launching soon: early look',
       description:
         'The new home for the longest-running podcast in Jamestown: the full 600+ episode archive, a live CDIR player, and LOTDQQ, the trivia game that builds questions from each episode. It is built and in final polish before launch.',
-      image: { src: '/lotd-preview.png', alt: 'Live On Tape Delay redesign sneak peek', width: 1200, height: 523 },
+      image: { src: '/lotd-preview.webp', alt: 'Live On Tape Delay redesign sneak peek', width: 1200, height: 523 },
       link: 'https://liveontapedelay-website.vercel.app/',
       linkLabel: 'See the sneak peek',
     },
