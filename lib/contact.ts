@@ -8,7 +8,7 @@ export const CONTACT_EMAIL: [string, string] = ['robfiasco', 'gmail.com'];
 
 // CONTACT_PHONE: US number as [area code, prefix, line], e.g. ['716', '555', '0123'].
 // Leave empty strings to hide the "Text me" button.
-export const CONTACT_PHONE: [string, string, string] = ['', '', ''];
+export const CONTACT_PHONE: [string, string, string] = ['281', '785', '7760'];
 
 // BOOKING_URL: Google Calendar appointment schedule link (adds a Google Meet link automatically).
 // While empty, booking buttons fall back to the contact section.
