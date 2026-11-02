@@ -13,9 +13,10 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { href: '#what-this-is', label: 'What This Is' },
+    { href: '#services', label: 'What I Build' },
+    { href: '#chadakoin-now', label: 'Chadakoin Now' },
     { href: '#projects', label: 'Projects' },
-    { href: '#workflow', label: 'How I Build' },
+    { href: '#how-i-work', label: 'How I Work' },
     { href: '#about', label: 'About' },
     { href: '#contact', label: 'Contact' },
   ];
@@ -38,7 +39,7 @@ export default function Navigation() {
             </div>
           </a>
 
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-7">
             {navLinks.map((link) => (
               <a key={link.href} href={link.href} className="text-studio-muted hover:text-studio-text transition-colors">
                 {link.label}
@@ -54,7 +55,7 @@ export default function Navigation() {
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-studio-text p-2"
+            className="lg:hidden text-studio-text p-2"
             aria-label="Toggle navigation menu"
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-menu"
@@ -70,7 +71,7 @@ export default function Navigation() {
         </div>
 
         {mobileMenuOpen && (
-          <div id="mobile-menu" className="md:hidden mt-4 p-4 rounded-xl glass space-y-3">
+          <div id="mobile-menu" className="lg:hidden mt-4 p-4 rounded-xl glass space-y-3">
             {navLinks.map((link) => (
               <a
                 key={link.href}

@@ -10,13 +10,11 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto">
         <div className="glass rounded-2xl p-10 md:p-14 border border-white/10 soft-glow text-center">
           <div className="accent-line mx-auto mb-6" />
-          <h2 className="section-title mb-6">Let&apos;s Build Something</h2>
+          <h2 className="section-title mb-6">Let&apos;s build something</h2>
 
-          <div className="space-y-3 mb-10">
-            <p className="section-copy">Have an idea?</p>
-            <p className="section-copy">Need a tool built for your business?</p>
-            <p className="section-copy">Reach out.</p>
-          </div>
+          <p className="section-copy max-w-2xl mx-auto mb-10">
+            Got a spreadsheet, a process or a problem that eats your time? Tell me about it.
+          </p>
 
           {isEmailRevealed ? (
             <a

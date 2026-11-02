@@ -1,17 +1,28 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const title = 'Chadakoin Digital | Custom software for Jamestown businesses';
+const description =
+  'One-person software studio in Jamestown, NY. Dashboards, scheduling tools, automation, apps and websites for local businesses.';
+
 export const metadata: Metadata = {
-  title: 'Chadakoin Digital | Product Studio by Rob Fiasco',
-  description:
-    'Chadakoin Digital is Rob Fiasco\'s software product studio in Jamestown, NY. Building tools, apps, and custom systems with AI-assisted workflows.',
+  metadataBase: new URL('https://chadakoindigital.com'),
+  title,
+  description,
   keywords:
-    'Rob Fiasco, Chadakoin Digital, product studio, software builder, custom software, Jamestown NY, AI-assisted development',
+    'Rob Fiasco, Chadakoin Digital, custom software, Jamestown NY, local business, dashboards, scheduling, automation, websites',
   authors: [{ name: 'Rob Fiasco' }],
   openGraph: {
-    title: 'Chadakoin Digital | Product Studio',
-    description: 'Build tools. Launch products. Solve problems.',
+    title,
+    description,
+    url: 'https://chadakoindigital.com',
+    siteName: 'Chadakoin Digital',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title,
+    description,
   },
 };
 
