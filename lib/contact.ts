@@ -12,7 +12,7 @@ export const CONTACT_PHONE: [string, string, string] = ['281', '785', '7760'];
 
 // BOOKING_URL: Google Calendar appointment schedule link (adds a Google Meet link automatically).
 // While empty, booking buttons fall back to the contact section.
-export const BOOKING_URL = '';
+export const BOOKING_URL = 'https://calendar.app.google/zsP3jzmzEnzajzpd9';
 
 export const BOOKING_LABEL = 'Book a free 30-min chat';
 export const BOOKING_NOTE = 'Meet on Google Meet, or grab a coffee in Jamestown.';

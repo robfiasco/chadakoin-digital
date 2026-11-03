@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Outfit } from 'next/font/google';
 import './globals.css';
+import { BOOKING_URL } from '@/lib/contact';
 
 // Self-hosted at build time, so the page no longer waits on a render-blocking Google Fonts stylesheet.
 const outfit = Outfit({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'], variable: '--font-outfit' });
@@ -43,6 +44,11 @@ const jsonLd = {
     { '@type': 'City', name: 'Jamestown, NY' },
     { '@type': 'AdministrativeArea', name: 'Chautauqua County, NY' },
   ],
+  potentialAction: {
+    '@type': 'ReserveAction',
+    target: BOOKING_URL,
+    name: 'Book a free 30-minute chat',
+  },
 };
 
 export default function RootLayout({
