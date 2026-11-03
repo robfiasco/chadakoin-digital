@@ -2,16 +2,17 @@ import type { Metadata } from 'next';
 import { Outfit } from 'next/font/google';
 import './globals.css';
 import { BOOKING_URL } from '@/lib/contact';
+import { SITE_URL } from '@/lib/services';
 
 // Self-hosted at build time, so the page no longer waits on a render-blocking Google Fonts stylesheet.
 const outfit = Outfit({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'], variable: '--font-outfit' });
 
 const title = 'Chadakoin Digital | Custom software for Jamestown businesses';
 const description =
-  'One-person software studio in Jamestown, NY. Dashboards, scheduling tools, automation, apps and websites for local businesses.';
+  'Custom software for Jamestown, NY businesses: websites, booking and ordering tools, dashboards and automation from a one-person local studio.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chadakoindigital.com'),
+  metadataBase: new URL(SITE_URL),
   title,
   description,
   keywords:
@@ -33,17 +34,31 @@ export const metadata: Metadata = {
   },
 };
 
-// No address, phone or email here on purpose.
+const towns = ['Jamestown', 'Lakewood', 'Falconer', 'Celoron', 'Bemus Point', 'Fredonia', 'Dunkirk'];
+
+// Town and state only, and no phone or email: those stay behind the click-to-reveal buttons.
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'Chadakoin Digital',
-  url: 'https://chadakoindigital.com',
-  description,
+  url: SITE_URL,
+  logo: `${SITE_URL}/icon.png`,
+  image: `${SITE_URL}/og-image.png`,
+  description:
+    'One-person software studio in Jamestown, NY building custom websites, booking and ordering tools, dashboards and automation for local businesses.',
+  founder: { '@type': 'Person', name: 'Rob Fiasco' },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Jamestown',
+    addressRegion: 'NY',
+    addressCountry: 'US',
+  },
   areaServed: [
-    { '@type': 'City', name: 'Jamestown, NY' },
-    { '@type': 'AdministrativeArea', name: 'Chautauqua County, NY' },
+    ...towns.map((town) => ({ '@type': 'City', name: `${town}, NY` })),
+    { '@type': 'City', name: 'Warren, PA' },
   ],
+  priceRange: '$$',
+  sameAs: ['https://apps.apple.com/us/app/chadakoin-now/id6783802593'],
   potentialAction: {
     '@type': 'ReserveAction',
     target: BOOKING_URL,

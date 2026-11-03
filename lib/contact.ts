@@ -4,7 +4,7 @@
 // so neither ever appears as plain text or in a mailto:/sms: href in the served HTML.
 
 // CONTACT_EMAIL: [name, domain]
-export const CONTACT_EMAIL: [string, string] = ['robfiasco', 'gmail.com'];
+export const CONTACT_EMAIL: [string, string] = ['rob', 'robfiasco.dev'];
 
 // CONTACT_PHONE: US number as [area code, prefix, line], e.g. ['716', '555', '0123'].
 // Leave empty strings to hide the "Text me" button.

@@ -14,12 +14,12 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { href: '#services', label: 'What I Build' },
-    { href: '#chadakoin-now', label: 'Chadakoin Now' },
-    { href: '#projects', label: 'Projects' },
-    { href: '#how-i-work', label: 'How I Work' },
-    { href: '#about', label: 'About' },
-    { href: '#contact', label: 'Contact' },
+    { href: '/#services', label: 'What I Build' },
+    { href: '/#chadakoin-now', label: 'Chadakoin Now' },
+    { href: '/#projects', label: 'Projects' },
+    { href: '/#how-i-work', label: 'How I Work' },
+    { href: '/#about', label: 'About' },
+    { href: '/#contact', label: 'Contact' },
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#hero" className="flex items-center gap-3 min-h-[44px]">
+          <a href="/#hero" className="flex items-center gap-3 min-h-[44px]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/logo-mark.webp" alt="" width={36} height={36} className="w-9 h-9 rounded-lg" />
             <div>
