@@ -7,6 +7,7 @@ export type Service = {
   h1: string;
   price: string;
   timeline: string;
+  carePlan: string;
   paragraphs: string[];
 };
 
@@ -20,6 +21,7 @@ export const SERVICES: Service[] = [
     h1: 'Business websites for Jamestown businesses',
     price: 'Starting at $500.',
     timeline: 'Usually under a week once I have your info.',
+    carePlan: 'Add the care plan for $30 a month',
     paragraphs: [
       'Most people look up a local business on their phone before they call or walk in. If what they find is an old page, a broken link or nothing at all, they move on. A business website from me gives them the basics right away: your hours, your menu or services, how to reach you, and a map to your door.',
       'I keep these sites fast and simple. They load quickly on a phone, they are easy to read, and they show up properly when someone searches for you or shares your link. You do not need to learn a website builder or keep up with plugins. When your hours or prices change, you send me a message and I update it.',
@@ -35,6 +37,7 @@ export const SERVICES: Service[] = [
     h1: 'Online booking and ordering setup',
     price: 'Starting at $1,000.',
     timeline: 'Usually 1 to 2 weeks.',
+    carePlan: 'Add the care plan from $50 a month',
     paragraphs: [
       'If your appointments live in a paper book, your orders come in by phone, text and Facebook message, and you spend the evening sorting it all out, a booking or ordering setup can take that off your plate.',
       'I set up a way for customers to book a time or place an order online, on their phone, whenever it suits them. You see every booking and order in one place instead of across five apps. It can send confirmations and reminders so fewer people forget, and it fits the way your business already works instead of forcing you into someone else\'s system.',
@@ -50,6 +53,7 @@ export const SERVICES: Service[] = [
     h1: 'Spreadsheet to dashboard',
     price: 'Starting at $400.',
     timeline: 'Usually about a week.',
+    carePlan: 'Add the care plan from $50 a month',
     paragraphs: [
       'A lot of local businesses run on spreadsheets. Sales in one file, inventory in another, and a report someone rebuilds by hand every Monday. It works until a formula breaks, two people edit different copies, or you need an answer and nobody can find it.',
       'I take the numbers you already track and put them in one dashboard that updates itself. You open it on your phone or computer and see sales, inventory, bookings, or whatever matters to you, without copying and pasting. It can pull from the spreadsheets you use today, so nobody has to change how they enter data.',
@@ -65,6 +69,7 @@ export const SERVICES: Service[] = [
     h1: 'Automation and custom tools',
     price: 'Starting at $300.',
     timeline: 'Larger custom tools are quoted after a free 30-minute conversation.',
+    carePlan: 'Add the care plan from $50 a month',
     paragraphs: [
       'Every business has a task that eats time every day. Copying orders from email into a spreadsheet, sending the same reminder to every customer, building the same invoice by hand, or checking three websites to find one number. None of it is hard, but it adds up to hours you could spend on the actual work.',
       'I pick one of those workflows and make it run on its own. The data moves where it needs to go, the messages go out on time, and you get a heads up when something actually needs your attention. You keep the tools you already use, and I connect them so they work together.',

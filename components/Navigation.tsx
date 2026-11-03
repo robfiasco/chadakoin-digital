@@ -15,6 +15,7 @@ export default function Navigation() {
 
   const navLinks = [
     { href: '/#services', label: 'What I Build' },
+    { href: '/#care', label: 'Care Plan' },
     { href: '/#chadakoin-now', label: 'Chadakoin Now' },
     { href: '/#projects', label: 'Projects' },
     { href: '/#how-i-work', label: 'How I Work' },

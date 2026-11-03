@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import Offers from '@/components/Offers';
+import CarePlan from '@/components/CarePlan';
 import ChadakoinNow from '@/components/ChadakoinNow';
 import Portfolio from '@/components/Portfolio';
 import HowIWork from '@/components/HowIWork';
@@ -21,6 +22,7 @@ export default function Home() {
       <main className="relative">
         <Hero />
         <Offers />
+        <CarePlan />
         <ChadakoinNow />
         <Portfolio />
         <HowIWork />

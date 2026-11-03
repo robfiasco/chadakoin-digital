@@ -64,6 +64,13 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           <div className="glass mt-10 p-7 rounded-2xl border border-white/10">
             <p className="text-accent-teal font-semibold">{service.price}</p>
             <p className="text-sm text-studio-muted mt-1">{service.timeline}</p>
+            <a
+              href="/#care"
+              className="inline-flex items-center gap-2 min-h-[44px] mt-2 text-accent-blue hover:text-accent-teal transition-colors"
+            >
+              {service.carePlan}
+              <span aria-hidden="true">&rarr;</span>
+            </a>
           </div>
 
           <div className="mt-10">
