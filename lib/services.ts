@@ -15,7 +15,7 @@ export type Service = {
 export const SERVICES: Service[] = [
   {
     slug: 'websites',
-    title: 'Business Websites in Jamestown, NY | Chadakoin Digital',
+    title: 'Websites for Jamestown Businesses | Chadakoin Digital',
     description:
       'Fast, simple websites for Jamestown businesses: hours, menu or services, contact info and a map. Starting at $500, usually live in under a week.',
     h1: 'Websites for Jamestown businesses',
@@ -23,9 +23,9 @@ export const SERVICES: Service[] = [
     timeline: 'Usually under a week once I have your info.',
     carePlan: 'Add the care plan for $30 a month',
     paragraphs: [
-      'Most people look up a local business on their phone before they call or walk in. If what they find is an old page, a broken link or nothing at all, they move on. A business website from me gives them the basics right away: your hours, your menu or services, how to reach you, and a map to your door.',
-      'I keep these sites fast and simple. They load quickly on a phone, they are easy to read, and they show up properly when someone searches for you or shares your link. You do not need to learn a website builder or keep up with plugins. When your hours or prices change, you send me a message and I update it.',
-      'The process is short. We talk for half an hour about what you need, you send me your details and any photos you want to use, and I build it. Most sites are live in under a week once I have your info.',
+      "When I want to eat out, I look for the menu first. Too often all I find is a Facebook page, which not everyone has anymore, or a photo of a menu posted six months to three years ago that I can't trust. A website from me fixes both. Your menu, hours and prices are on one page anyone can open without an account, and I update it whenever something changes, so the 'Updated' date on the page is always true.",
+      'I keep these sites fast and simple. They load quickly on a phone, they are easy to read, and they show up properly when someone searches for you or shares your link. You do not need to learn a website builder or keep up with plugins. When your hours or prices change, you send me a message and I update it. A text with the new price or special is enough.',
+      'The process is short. We talk for half an hour about what you need, you send me your details and any photos you want to use, and I build it. Sites are usually live in under a week once I have your info.',
       'Pricing starts at $500, and you get a fixed quote before any work begins. Changes and small jobs after launch are $35 an hour. For local businesses I am also open to barter, such as a trade for services, goods or ad space.',
     ],
   },

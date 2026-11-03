@@ -6,7 +6,7 @@ export default function Offers() {
       title: 'Business website',
       slug: 'websites',
       linkLabel: 'More about websites',
-      body: 'A fast, simple site for your hours, menu or services, with your contact info and a map.',
+      body: "A fast, simple site with your menu, hours and prices in one place, and an 'Updated' date people can trust.",
       price: 'Starting at $500.',
       note: 'Usually under a week once I have your info.',
     },
