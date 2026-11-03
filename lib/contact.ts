@@ -15,7 +15,7 @@ export const CONTACT_PHONE: [string, string, string] = ['281', '785', '7760'];
 export const BOOKING_URL = 'https://calendar.app.google/zsP3jzmzEnzajzpd9';
 
 export const BOOKING_LABEL = 'Book a free 30-min chat';
-export const BOOKING_NOTE = 'Meet on Google Meet, or grab a coffee in Jamestown.';
+export const BOOKING_NOTE = 'Talk on Google Meet, or grab a coffee in Jamestown.';
 
 export const bookingHref = BOOKING_URL || '#contact';
 export const bookingIsExternal = BOOKING_URL.startsWith('http');

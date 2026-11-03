@@ -3,7 +3,7 @@
 export default function Offers() {
   const offers = [
     {
-      title: 'Business website.',
+      title: 'Business website',
       slug: 'websites',
       linkLabel: 'More about websites',
       body: 'A fast, simple site for your hours, menu or services, with your contact info and a map.',
@@ -11,7 +11,7 @@ export default function Offers() {
       note: 'Usually under a week once I have your info.',
     },
     {
-      title: 'Booking or ordering setup.',
+      title: 'Booking or ordering setup',
       slug: 'booking-and-ordering',
       linkLabel: 'More about booking and ordering',
       body: 'Customers book or order online and you see it all in one place.',
@@ -19,7 +19,7 @@ export default function Offers() {
       note: 'Usually 1 to 2 weeks.',
     },
     {
-      title: 'Spreadsheet to dashboard.',
+      title: 'Spreadsheet to dashboard',
       slug: 'dashboards',
       linkLabel: 'More about dashboards',
       body: 'Your numbers, reports and inventory in one place that updates itself.',
@@ -27,12 +27,12 @@ export default function Offers() {
       note: 'Usually about a week.',
     },
     {
-      title: 'Automation or custom tool.',
+      title: 'Automation or custom tool',
       slug: 'automation',
       linkLabel: 'More about automation',
       body: 'One workflow that wastes your time every day, handled for you.',
       price: 'Starting at $300.',
-      note: 'Larger custom tools are quoted after a free 30-minute conversation.',
+      note: 'Larger custom tools are quoted after a free 30-min chat.',
     },
   ];
 

@@ -14,9 +14,9 @@ export default function Hero() {
             Custom software for Jamestown businesses.
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-studio-muted max-w-3xl leading-relaxed mb-10">
-            I&apos;m Rob Fiasco, one person in Jamestown, NY who builds the tools your business is missing:
-            dashboards, scheduling, automation, apps and websites. You work directly with me from start to
-            finish, which keeps projects fast and affordable.
+            I&apos;m Rob Fiasco, one person in Jamestown, NY, who builds the tools your business is missing:
+            websites, booking and ordering, dashboards and automation. You work directly with me from start
+            to finish, which keeps projects fast and affordable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <BookingButton />

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://chadakoindigital.com',
     siteName: 'Chadakoin Digital',
     type: 'website',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Chadakoin Digital: Custom software for Jamestown businesses' }],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Chadakoin Digital: Custom Software · Jamestown, NY' }],
   },
   twitter: {
     card: 'summary_large_image',

@@ -14,7 +14,7 @@ export default function Portfolio() {
         height: 416,
       },
       link: 'https://tarp-skunks-2026.vercel.app/',
-      linkLabel: 'Open the fan guide',
+      linkLabel: 'Preview the fan guide',
     },
     {
       title: 'CDIR',
