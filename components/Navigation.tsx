@@ -33,10 +33,10 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           <a href="/#hero" className="flex items-center gap-3 min-h-[44px]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo-mark.webp" alt="" width={36} height={36} className="w-9 h-9 rounded-lg" />
+            <img src="/cd-logo.svg" alt="" width={36} height={36} className="w-9 h-9" />
             <div>
               <p className="text-studio-text font-display font-bold leading-none">Chadakoin Digital</p>
-              <p className="text-studio-muted text-xs font-mono">Product Studio</p>
+              <p className="text-studio-muted text-xs font-mono">Custom Software · Jamestown, NY</p>
             </div>
           </a>
 

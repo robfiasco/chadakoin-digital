@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="1024" height="1024">
+<defs>
+ <linearGradient id="cdBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#001a47"/><stop offset=".5" stop-color="#00225f"/>
+  <stop offset=".75" stop-color="#002c79"/><stop offset=".9" stop-color="#003590"/><stop offset="1" stop-color="#003b9e"/>
+ </linearGradient>
+ <path id="cdW0" d="M0.0,5.22 C1.00,4.45 4.00,2.04 6.00,0.64 C8.00,-0.76 10.00,-2.07 12.00,-3.18 C14.00,-4.28 16.00,-5.22 18.00,-6.00 C20.00,-6.78 22.00,-7.51 24.00,-7.86 C26.00,-8.21 28.00,-8.44 30.00,-8.08 C32.00,-7.72 34.00,-6.92 36.00,-5.69 C38.00,-4.47 40.00,-2.51 42.00,-0.75 C44.00,1.02 46.00,3.36 48.00,4.92 C50.00,6.47 52.00,7.97 54.00,8.60 C56.00,9.22 58.00,9.16 60.00,8.68 C62.00,8.20 64.00,6.89 66.00,5.72 C68.00,4.55 70.00,2.94 72.00,1.68 C74.00,0.43 76.00,-0.79 78.00,-1.79 C80.00,-2.80 82.00,-3.60 84.00,-4.34 C86.00,-5.07 88.00,-5.74 90.00,-6.19 C92.00,-6.65 94.00,-7.11 96.00,-7.08 C98.00,-7.05 100.00,-6.77 102.00,-5.99 C104.00,-5.20 106.00,-3.82 108.00,-2.37 C110.00,-0.93 112.00,1.16 114.00,2.68 C116.00,4.20 118.00,5.89 120.00,6.75 C122.00,7.61 124.00,7.99 126.00,7.84 C128.00,7.69 130.00,6.75 132.00,5.84 C134.00,4.93 136.00,3.48 138.00,2.38 C140.00,1.28 142.00,0.14 144.00,-0.75 C146.00,-1.63 148.00,-2.30 150.00,-2.93 C152.00,-3.57 154.00,-4.09 156.00,-4.55 C158.00,-5.02 160.00,-5.55 162.00,-5.73 C164.00,-5.91 166.00,-6.05 168.00,-5.66 C170.00,-5.27 172.00,-4.46 174.00,-3.39 C176.00,-2.32 179.00,0.06 180.00,0.75 L180,50 L0,50 Z" transform="translate(0,108.0)"/>
+<path id="cdW1" d="M0.0,5.22 C1.00,4.45 4.00,2.04 6.00,0.64 C8.00,-0.76 10.00,-2.07 12.00,-3.18 C14.00,-4.28 16.00,-5.22 18.00,-6.00 C20.00,-6.78 22.00,-7.51 24.00,-7.86 C26.00,-8.21 28.00,-8.44 30.00,-8.08 C32.00,-7.72 34.00,-6.92 36.00,-5.69 C38.00,-4.47 40.00,-2.51 42.00,-0.75 C44.00,1.02 46.00,3.36 48.00,4.92 C50.00,6.47 52.00,7.97 54.00,8.60 C56.00,9.22 58.00,9.16 60.00,8.68 C62.00,8.20 64.00,6.89 66.00,5.72 C68.00,4.55 70.00,2.94 72.00,1.68 C74.00,0.43 76.00,-0.79 78.00,-1.79 C80.00,-2.80 82.00,-3.60 84.00,-4.34 C86.00,-5.07 88.00,-5.74 90.00,-6.19 C92.00,-6.65 94.00,-7.11 96.00,-7.08 C98.00,-7.05 100.00,-6.77 102.00,-5.99 C104.00,-5.20 106.00,-3.82 108.00,-2.37 C110.00,-0.93 112.00,1.16 114.00,2.68 C116.00,4.20 118.00,5.89 120.00,6.75 C122.00,7.61 124.00,7.99 126.00,7.84 C128.00,7.69 130.00,6.75 132.00,5.84 C134.00,4.93 136.00,3.48 138.00,2.38 C140.00,1.28 142.00,0.14 144.00,-0.75 C146.00,-1.63 148.00,-2.30 150.00,-2.93 C152.00,-3.57 154.00,-4.09 156.00,-4.55 C158.00,-5.02 160.00,-5.55 162.00,-5.73 C164.00,-5.91 166.00,-6.05 168.00,-5.66 C170.00,-5.27 172.00,-4.46 174.00,-3.39 C176.00,-2.32 179.00,0.06 180.00,0.75 L180,50 L0,50 Z" transform="translate(0,120.0)"/>
+<path id="cdW2" d="M0.0,5.22 C1.00,4.45 4.00,2.04 6.00,0.64 C8.00,-0.76 10.00,-2.07 12.00,-3.18 C14.00,-4.28 16.00,-5.22 18.00,-6.00 C20.00,-6.78 22.00,-7.51 24.00,-7.86 C26.00,-8.21 28.00,-8.44 30.00,-8.08 C32.00,-7.72 34.00,-6.92 36.00,-5.69 C38.00,-4.47 40.00,-2.51 42.00,-0.75 C44.00,1.02 46.00,3.36 48.00,4.92 C50.00,6.47 52.00,7.97 54.00,8.60 C56.00,9.22 58.00,9.16 60.00,8.68 C62.00,8.20 64.00,6.89 66.00,5.72 C68.00,4.55 70.00,2.94 72.00,1.68 C74.00,0.43 76.00,-0.79 78.00,-1.79 C80.00,-2.80 82.00,-3.60 84.00,-4.34 C86.00,-5.07 88.00,-5.74 90.00,-6.19 C92.00,-6.65 94.00,-7.11 96.00,-7.08 C98.00,-7.05 100.00,-6.77 102.00,-5.99 C104.00,-5.20 106.00,-3.82 108.00,-2.37 C110.00,-0.93 112.00,1.16 114.00,2.68 C116.00,4.20 118.00,5.89 120.00,6.75 C122.00,7.61 124.00,7.99 126.00,7.84 C128.00,7.69 130.00,6.75 132.00,5.84 C134.00,4.93 136.00,3.48 138.00,2.38 C140.00,1.28 142.00,0.14 144.00,-0.75 C146.00,-1.63 148.00,-2.30 150.00,-2.93 C152.00,-3.57 154.00,-4.09 156.00,-4.55 C158.00,-5.02 160.00,-5.55 162.00,-5.73 C164.00,-5.91 166.00,-6.05 168.00,-5.66 C170.00,-5.27 172.00,-4.46 174.00,-3.39 C176.00,-2.32 179.00,0.06 180.00,0.75 L180,50 L0,50 Z" transform="translate(0,132.0)"/>
+ <clipPath id="cdTile"><rect width="180" height="180" rx="32.4"/></clipPath>
+ <clipPath id="cdLetters"><path transform="translate(0,90) scale(1,0.78) translate(0,-90)" clip-rule="evenodd" d="M84,35.1 A57.5,57.5 0 1 0 84,144.9 L84,109 C78,112.5 70,115 58,115 A24.5,29 0 0 1 58,57 L84,57 Z"/><path transform="translate(0,90) scale(1,0.78) translate(0,-90)" clip-rule="evenodd" d="M91,33 L118.6,33 A50,57 0 0 1 118.6,147 L91,147 Z M111.5,57 L124,57 A22.6,29 0 0 1 124,115 L118.5,115 Q111.5,115 111.5,108 Z"/></clipPath>
+</defs>
+<g clip-path="url(#cdTile)">
+ <rect width="180" height="180" fill="url(#cdBg)"/>
+ <path transform="translate(0,90) scale(1,0.78) translate(0,-90)" fill="#fff" d="M84,35.1 A57.5,57.5 0 1 0 84,144.9 L84,109 C78,112.5 70,115 58,115 A24.5,29 0 0 1 58,57 L84,57 Z"/>
+ <path transform="translate(0,90) scale(1,0.78) translate(0,-90)" fill="#fff" fill-rule="evenodd" d="M91,33 L118.6,33 A50,57 0 0 1 118.6,147 L91,147 Z M111.5,57 L124,57 A22.6,29 0 0 1 124,115 L118.5,115 Q111.5,115 111.5,108 Z"/>
+ <g clip-path="url(#cdLetters)">
+  <use href="#cdW0" fill="#dce7f7" y="0.000"/>
+<use href="#cdW0" fill="#a2bde5" y="0.250"/>
+<use href="#cdW0" fill="#6994d3" y="0.500"/>
+<use href="#cdW0" fill="#306ac2" y="0.750"/>
+<use href="#cdW0" fill="#2765c0" y="1.000"/>
+<use href="#cdW0" fill="#2b68c2" y="1.250"/>
+<use href="#cdW0" fill="#2e6cc4" y="1.500"/>
+<use href="#cdW0" fill="#326fc6" y="1.750"/>
+<use href="#cdW0" fill="#3672c8" y="2.000"/>
+<use href="#cdW0" fill="#3a76ca" y="2.250"/>
+<use href="#cdW0" fill="#3e79cc" y="2.500"/>
+<use href="#cdW0" fill="#417dce" y="2.750"/>
+<use href="#cdW0" fill="#4580d0" y="3.000"/>
+<use href="#cdW0" fill="#4c85d2" y="3.250"/>
+<use href="#cdW0" fill="#538ad4" y="3.500"/>
+<use href="#cdW0" fill="#5a8fd6" y="3.750"/>
+<use href="#cdW0" fill="#6194d8" y="4.000"/>
+<use href="#cdW0" fill="#6898da" y="4.250"/>
+<use href="#cdW0" fill="#6e9ddd" y="4.500"/>
+<use href="#cdW0" fill="#75a2df" y="4.750"/>
+<use href="#cdW0" fill="#7ca7e1" y="5.000"/>
+<use href="#cdW0" fill="#83ace3" y="5.250"/>
+<use href="#cdW0" fill="#8ab1e5" y="5.500"/>
+<use href="#cdW0" fill="#91b6e7" y="5.750"/>
+<use href="#cdW0" fill="#98bae8" y="6.000"/>
+<use href="#cdW0" fill="#9fbfea" y="6.250"/>
+<use href="#cdW0" fill="#a6c4eb" y="6.500"/>
+<use href="#cdW0" fill="#adc8ed" y="6.750"/>
+<use href="#cdW0" fill="#b4cdef" y="7.000"/>
+<use href="#cdW0" fill="#bbd2f0" y="7.250"/>
+<use href="#cdW0" fill="#c2d7f2" y="7.500"/>
+<use href="#cdW0" fill="#c9dbf3" y="7.750"/>
+<use href="#cdW0" fill="#d0e0f5" y="8.000"/>
+<use href="#cdW0" fill="#d6e4f6" y="8.250"/>
+<use href="#cdW0" fill="#dce8f8" y="8.500"/>
+<use href="#cdW0" fill="#e2ecf9" y="8.750"/>
+<use href="#cdW0" fill="#e8f0fa" y="9.000"/>
+<use href="#cdW0" fill="#edf3fb" y="9.250"/>
+<use href="#cdW0" fill="#f3f7fc" y="9.500"/>
+<use href="#cdW0" fill="#f9fbfe" y="9.750"/>
+<use href="#cdW0" fill="#ffffff" y="10.000"/>
+<use href="#cdW1" fill="#dce7f7" y="0.000"/>
+<use href="#cdW1" fill="#a2bde5" y="0.250"/>
+<use href="#cdW1" fill="#6994d3" y="0.500"/>
+<use href="#cdW1" fill="#306ac2" y="0.750"/>
+<use href="#cdW1" fill="#2765c0" y="1.000"/>
+<use href="#cdW1" fill="#2b68c2" y="1.250"/>
+<use href="#cdW1" fill="#2e6cc4" y="1.500"/>
+<use href="#cdW1" fill="#326fc6" y="1.750"/>
+<use href="#cdW1" fill="#3672c8" y="2.000"/>
+<use href="#cdW1" fill="#3a76ca" y="2.250"/>
+<use href="#cdW1" fill="#3e79cc" y="2.500"/>
+<use href="#cdW1" fill="#417dce" y="2.750"/>
+<use href="#cdW1" fill="#4580d0" y="3.000"/>
+<use href="#cdW1" fill="#4c85d2" y="3.250"/>
+<use href="#cdW1" fill="#538ad4" y="3.500"/>
+<use href="#cdW1" fill="#5a8fd6" y="3.750"/>
+<use href="#cdW1" fill="#6194d8" y="4.000"/>
+<use href="#cdW1" fill="#6898da" y="4.250"/>
+<use href="#cdW1" fill="#6e9ddd" y="4.500"/>
+<use href="#cdW1" fill="#75a2df" y="4.750"/>
+<use href="#cdW1" fill="#7ca7e1" y="5.000"/>
+<use href="#cdW1" fill="#83ace3" y="5.250"/>
+<use href="#cdW1" fill="#8ab1e5" y="5.500"/>
+<use href="#cdW1" fill="#91b6e7" y="5.750"/>
+<use href="#cdW1" fill="#98bae8" y="6.000"/>
+<use href="#cdW1" fill="#9fbfea" y="6.250"/>
+<use href="#cdW1" fill="#a6c4eb" y="6.500"/>
+<use href="#cdW1" fill="#adc8ed" y="6.750"/>
+<use href="#cdW1" fill="#b4cdef" y="7.000"/>
+<use href="#cdW1" fill="#bbd2f0" y="7.250"/>
+<use href="#cdW1" fill="#c2d7f2" y="7.500"/>
+<use href="#cdW1" fill="#c9dbf3" y="7.750"/>
+<use href="#cdW1" fill="#d0e0f5" y="8.000"/>
+<use href="#cdW1" fill="#d6e4f6" y="8.250"/>
+<use href="#cdW1" fill="#dce8f8" y="8.500"/>
+<use href="#cdW1" fill="#e2ecf9" y="8.750"/>
+<use href="#cdW1" fill="#e8f0fa" y="9.000"/>
+<use href="#cdW1" fill="#edf3fb" y="9.250"/>
+<use href="#cdW1" fill="#f3f7fc" y="9.500"/>
+<use href="#cdW1" fill="#f9fbfe" y="9.750"/>
+<use href="#cdW1" fill="#ffffff" y="10.000"/>
+<use href="#cdW2" fill="#dce7f7" y="0.000"/>
+<use href="#cdW2" fill="#a2bde5" y="0.250"/>
+<use href="#cdW2" fill="#6994d3" y="0.500"/>
+<use href="#cdW2" fill="#306ac2" y="0.750"/>
+<use href="#cdW2" fill="#2765c0" y="1.000"/>
+<use href="#cdW2" fill="#2b68c2" y="1.250"/>
+<use href="#cdW2" fill="#2e6cc4" y="1.500"/>
+<use href="#cdW2" fill="#326fc6" y="1.750"/>
+<use href="#cdW2" fill="#3672c8" y="2.000"/>
+<use href="#cdW2" fill="#3a76ca" y="2.250"/>
+<use href="#cdW2" fill="#3e79cc" y="2.500"/>
+<use href="#cdW2" fill="#417dce" y="2.750"/>
+<use href="#cdW2" fill="#4580d0" y="3.000"/>
+<use href="#cdW2" fill="#4c85d2" y="3.250"/>
+<use href="#cdW2" fill="#538ad4" y="3.500"/>
+<use href="#cdW2" fill="#5a8fd6" y="3.750"/>
+<use href="#cdW2" fill="#6194d8" y="4.000"/>
+<use href="#cdW2" fill="#6898da" y="4.250"/>
+<use href="#cdW2" fill="#6e9ddd" y="4.500"/>
+<use href="#cdW2" fill="#75a2df" y="4.750"/>
+<use href="#cdW2" fill="#7ca7e1" y="5.000"/>
+<use href="#cdW2" fill="#83ace3" y="5.250"/>
+<use href="#cdW2" fill="#8ab1e5" y="5.500"/>
+<use href="#cdW2" fill="#91b6e7" y="5.750"/>
+<use href="#cdW2" fill="#98bae8" y="6.000"/>
+<use href="#cdW2" fill="#9fbfea" y="6.250"/>
+<use href="#cdW2" fill="#a6c4eb" y="6.500"/>
+<use href="#cdW2" fill="#adc8ed" y="6.750"/>
+<use href="#cdW2" fill="#b4cdef" y="7.000"/>
+<use href="#cdW2" fill="#bbd2f0" y="7.250"/>
+<use href="#cdW2" fill="#c2d7f2" y="7.500"/>
+<use href="#cdW2" fill="#c9dbf3" y="7.750"/>
+<use href="#cdW2" fill="#d0e0f5" y="8.000"/>
+<use href="#cdW2" fill="#d6e4f6" y="8.250"/>
+<use href="#cdW2" fill="#dce8f8" y="8.500"/>
+<use href="#cdW2" fill="#e2ecf9" y="8.750"/>
+<use href="#cdW2" fill="#e8f0fa" y="9.000"/>
+<use href="#cdW2" fill="#edf3fb" y="9.250"/>
+<use href="#cdW2" fill="#f3f7fc" y="9.500"/>
+<use href="#cdW2" fill="#f9fbfe" y="9.750"/>
+<use href="#cdW2" fill="#ffffff" y="10.000"/>
+ </g>
+</g>
+</svg>
