@@ -25,13 +25,13 @@ export default function Portfolio() {
       linkLabel: 'Open Project',
     },
     {
-      title: 'Live On Tape Delay (redesign)',
-      badge: 'Launching soon: early look',
+      title: 'Live On Tape Delay',
+      badge: 'Now live',
       description:
-        'The new home for the longest-running podcast in Jamestown: the full 600+ episode archive, a live CDIR player, and LOTDQQ, the trivia game that builds questions from each episode. It is built and in final polish before launch.',
-      image: { src: '/lotd-preview.webp', alt: 'Live On Tape Delay redesign sneak peek', width: 1200, height: 523 },
-      link: 'https://liveontapedelay-website.vercel.app/',
-      linkLabel: 'See the sneak peek',
+        'The new home for the longest-running podcast in Jamestown: the full 600+ episode archive, a live CDIR player, LOTDTV with a live channel guide, Discord sign-in, and a new version of LOTDQQ, the trivia game that builds questions from each episode.',
+      image: { src: '/lotd-preview.webp', alt: 'Live On Tape Delay homepage with the latest episode and CDIR radio player', width: 1200, height: 590 },
+      link: 'https://liveontapedelay.com/',
+      linkLabel: 'Visit liveontapedelay.com',
     },
   ];
 
