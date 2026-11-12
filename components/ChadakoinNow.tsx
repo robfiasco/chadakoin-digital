@@ -6,7 +6,7 @@ export default function ChadakoinNow() {
       <div className="max-w-6xl mx-auto">
         <div className="glass rounded-2xl p-8 md:p-14 border border-white/10 soft-glow">
           <div className="max-w-3xl">
-            <p className="text-accent-teal font-mono text-sm uppercase tracking-[0.22em] mb-4">Proof</p>
+            <p className="text-accent-teal font-mono text-sm uppercase tracking-[0.22em] mb-4">Featured project</p>
             <h2 className="section-title mb-6">Chadakoin Now</h2>
             <p className="section-copy">
               A live Jamestown information hub on iOS and the web: city services, recycling, parking,
