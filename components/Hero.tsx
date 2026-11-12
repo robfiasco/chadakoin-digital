@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col justify-center lg:flex-row lg:items-center px-6 pt-28 pb-20 relative overflow-hidden"
+      className="relative overflow-hidden px-6 pt-[17rem] sm:pt-[22rem] pb-16 lg:min-h-screen lg:flex lg:items-center lg:pt-28 lg:pb-20"
     >
       <div className="max-w-6xl mx-auto w-full relative z-10">
         <div className="max-w-4xl hero-copy">
@@ -39,9 +39,9 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* One image for every width so only one file downloads: a full-bleed banner under the
-          buttons below lg, the right 45% of the hero from lg up */}
-      <div className="relative -mx-6 mt-12 h-60 sm:h-72 lg:absolute lg:inset-y-0 lg:right-0 lg:w-[45%] lg:h-auto lg:m-0 hero-photo-fade-x">
+      {/* One image for every width so only one file downloads: behind the nav and fading into the
+          heading below lg (the section's top padding leaves room for it), the right 45% of the hero from lg up */}
+      <div className="absolute inset-x-0 top-0 h-[26rem] sm:h-[32rem] lg:inset-y-0 lg:left-auto lg:right-0 lg:w-[45%] lg:h-auto hero-photo-fade-x">
         {/* Pre-optimized in public/images; next/image would need sharp on the VPS to do the same */}
         <picture className="hero-photo-fade">
           <source
