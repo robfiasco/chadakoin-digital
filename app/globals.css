@@ -73,3 +73,32 @@ body::before {
   transform: translateY(-4px);
   border-color: rgba(59, 130, 246, 0.4);
 }
+
+/* Keeps hero copy clear of the photo on the right 45% (lg+): 55vw minus the container's left offset and a gap */
+@media (min-width: 1024px) {
+  .hero-copy {
+    max-width: calc(55vw - max(1.5rem, (100vw - 72rem) / 2) - 3rem);
+  }
+}
+
+/* The hero photo fades to transparent (not to a solid color) so it blends with the tinted page
+   background instead of leaving a seam. Vertical fade on the <picture>, horizontal on its wrapper. */
+.hero-photo-fade {
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 50%, black 70%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, black 50%, black 70%, transparent);
+}
+
+@media (min-width: 1024px) {
+  /* Dark top keeps the transparent nav readable over the sky */
+  .hero-photo-fade {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), black 22%, black 75%, transparent);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), black 22%, black 75%, transparent);
+  }
+
+  .hero-photo-fade-x {
+    -webkit-mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.08) 10%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.7) 30%, black 40%);
+    mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.08) 10%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.7) 30%, black 40%);
+  }
+}
