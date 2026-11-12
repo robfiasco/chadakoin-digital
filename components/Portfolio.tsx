@@ -26,7 +26,7 @@ export default function Portfolio() {
     },
     {
       title: 'Live On Tape Delay',
-      badge: 'Now live',
+      badge: null,
       description:
         'The new home for the longest-running podcast in Jamestown: the full 600+ episode archive, a live CDIR player, LOTDTV with a live channel guide, Discord sign-in, and a new version of LOTDQQ, the trivia game that builds questions from each episode.',
       image: { src: '/lotd-preview.webp', alt: 'Live On Tape Delay homepage with the latest episode and CDIR radio player', width: 1200, height: 590 },
