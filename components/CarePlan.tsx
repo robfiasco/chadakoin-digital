@@ -2,7 +2,10 @@ import BookingButton from '@/components/BookingButton';
 
 const included = [
   'Domain, hosting, SSL, backups and uptime checks included',
-  'Up to 30 minutes of changes every month (text, photos, small fixes)',
+  "If something breaks on my end (hosting, SSL or my code), I fix it free. That doesn't count against your 30 minutes.",
+  "Up to 30 minutes of changes every month (text, photos, small fixes). Unused time doesn't roll over.",
+  'I reply within one business day, and the same day if your site is down.',
+  'New pages, redesigns and new features get their own quote. Changes past your 30 minutes are $35 an hour.',
   "The domain is always yours. Cancel any time with 30 days' notice.",
 ];
 
