@@ -46,16 +46,16 @@ export default function Hero() {
         <picture className="hero-photo-fade">
           <source
             type="image/webp"
-            srcSet="/images/jamestown-erie-bridge-800.webp 638w, /images/jamestown-erie-bridge-1600.webp 1276w"
+            srcSet="/images/jamestown-erie-bridge-800.webp 637w, /images/jamestown-erie-bridge-1568.webp 1248w"
             sizes="(min-width: 1024px) 45vw, 100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/jamestown-erie-bridge-1600.jpg"
-            srcSet="/images/jamestown-erie-bridge-800.jpg 638w, /images/jamestown-erie-bridge-1600.jpg 1276w"
+            src="/images/jamestown-erie-bridge-1568.jpg"
+            srcSet="/images/jamestown-erie-bridge-800.jpg 637w, /images/jamestown-erie-bridge-1568.jpg 1248w"
             sizes="(min-width: 1024px) 45vw, 100vw"
-            width={1276}
-            height={1600}
+            width={1248}
+            height={1568}
             alt="Erie Railroad bridge reading Chicago, Jamestown, New York in downtown Jamestown"
             // Lazy so the photo never competes with the hero text on slow mobile connections; on desktop it is
             // in the viewport at first layout, so it still starts loading right away.
